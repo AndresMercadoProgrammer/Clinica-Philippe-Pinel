@@ -1,0 +1,41 @@
+.heroContainer {
+  width: 100%;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  gap: 0.4rem;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  flex: 1;
+}
+.title {
+  font-size: 2rem;
+  font-weight: extra-bold;
+  text-wrap: balance;
+}
+.parrafo {
+  font-size: 1rem;
+  font-weight: regular;
+  text-align: center;
+  text-wrap: balance;
+}
+.btnAction {
+  font-size: 1.3rem;
+  color: #fff;
+  background: linear-gradient(#5488a6, #144661);
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  margin: 1.5rem;
+}
+.imageContainer {
+  flex: 1;
+  height: 100%;
+  object-fit: cover;
+}
+.img {
+  height: 100%;
+}

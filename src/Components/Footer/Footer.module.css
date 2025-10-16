@@ -1,0 +1,39 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #bfd2dd;
+  padding: 1.5rem;
+  gap: 1.2rem;
+}
+
+.logoContainer {
+  width: 100%;
+}
+.navLinksContainer {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  flex-direction: column;
+}
+
+.link {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.socialNetworksContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.SocialNetworkTitle {
+  width: 100%;
+  font-size: 1.5rem;
+}
+.socialNetworksIcons {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 0.5rem;
+}

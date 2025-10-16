@@ -1,0 +1,72 @@
+.menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 70%;
+  height: 100vh;
+  background-color: white;
+  transition: right 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  box-shadow: 1px 2px 2px 5px rgba(14, 11, 11, 0.1);
+  transition: right 0.3s ease;
+}
+
+.open {
+  right: 0;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem 0 0.5rem;
+  font-size: 1.5rem;
+  color: #035683;
+  width: 100%;
+  height: 80vh;
+  align-items: flex-start;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.listItem a {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.turnosBtn {
+  background-color: #035683;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  justify-items: end;
+}
+
+.exitContainer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.cruz {
+  font-size: 1.5rem;
+}
+.line1 {
+  width: 30px;
+  height: 5px;
+  background-color: #ff0d0d;
+  rotate: 50deg;
+}
+.line2 {
+  width: 30px;
+  height: 5px;
+  background-color: #0a0202;
+  rotate: -50deg;
+}
+
+.icons {
+  font-size: 2rem;
+}

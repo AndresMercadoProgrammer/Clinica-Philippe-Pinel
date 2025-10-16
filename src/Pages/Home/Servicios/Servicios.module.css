@@ -1,0 +1,42 @@
+.serviciosContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+.title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.8rem;
+  max-width: 420px; /* máximo ancho para 2 columnas */
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #e1e9ed;
+  justify-content: start;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: rgba(116, 114, 114, 0.192) 1px 1px 1px 2px;
+  max-height: 250px;
+  height: 100%;
+  padding: 1rem 0.5rem;
+  gap: 0.3rem;
+}
+
+.cardTitle {
+  line-height: 1.2;
+}
+.cardImg {
+  height: 3rem;
+  /* mantiene proporción, recortando lo que sobra */
+}
+.parrafo {
+  font-size: 0.8rem;
+}

@@ -1,0 +1,64 @@
+/* RESET.CSS - versión moderna */
+
+/* 1. Eliminar márgenes y paddings por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Tipografía básica y suavizado */
+html,
+body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+/* 3. Quitar estilos a listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 4. Quitar estilos a links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 5. Imágenes y videos responsivos */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 6. Inputs, botones y formularios sin estilos raros */
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* 7. Botones clicables */
+button {
+  cursor: pointer;
+}
+
+/* 8. Quitar estilos a tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
