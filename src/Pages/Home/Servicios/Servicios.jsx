@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Servicios.module.css";
-import gerontologia from "public/Gerontologia.png";
-import hospital from "public/Hospital.svg";
+import gerontologia from "/Gerontologia.png";
+import hospital from "/Hospital.svg";
 import maletin from "/Maletin.png";
 import consultorio from "/Consultorio.png";
 export const Servicios = () => {
