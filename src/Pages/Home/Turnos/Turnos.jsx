@@ -1,5 +1,9 @@
 import React from "react";
 import styles from "./Turnos.module.css";
+import newPatient from "@assets/TurnosIcons/new.svg";
+
+import reload from "@assets/TurnosIcons/reload.svg";
+
 export const Turnos = () => {
   return (
     <section id="turnos" className={styles.turnosContainer}>
@@ -10,20 +14,12 @@ export const Turnos = () => {
       </p>
       <div className={styles.btnTurnosContainer}>
         <div className={styles.btn}>
-          <img
-            className={styles.imgButton}
-            src="src\assets\Turnos\new.svg"
-            alt=""
-          />
+          <img className={styles.imgButton} src={newPatient} alt="" />
           <p>Paciente Nuevo</p>
         </div>
 
         <div className={styles.btn}>
-          <img
-            className={styles.imgButton}
-            src="src\assets\Turnos\reload.svg"
-            alt=""
-          />
+          <img className={styles.imgButton} src={reload} alt="" />
           <p>Paciente Recurrente</p>
         </div>
       </div>

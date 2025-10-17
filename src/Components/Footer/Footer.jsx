@@ -1,13 +1,16 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import { NavLink } from "react-router-dom";
-
+import logoFooter from "@assets/Logos/LogoFooter.svg";
+import Instagram from "@assets/SocialNetworks/instagram.svg";
+import Facebook from "@assets/SocialNetworks/Facebook.svg";
+import X from "@assets/SocialNetworks/x.svg";
 export const Footer = () => {
   return (
     <footer className={styles.footerContainer}>
       <div className={styles.logoContainer}>
         <img
-          src="src/assets/Logos/LogoFooter.svg"
+          src={logoFooter}
           alt="Logo clinica Philippe Pinel"
           className={styles.logo}
         />
@@ -38,23 +41,19 @@ export const Footer = () => {
           <NavLink to="">
             <img
               className={styles.iconSocial}
-              src="src/assets/socialNetworks/Instagram.svg"
+              src={Instagram}
               alt="Icono Instagram"
             />
           </NavLink>
           <NavLink to="">
             <img
               className={styles.iconSocial}
-              src="src/assets/SocialNetworks/facebook.svg"
+              src={Facebook}
               alt="Icono Facebook"
             />
           </NavLink>
           <NavLink to="">
-            <img
-              className={styles.iconSocial}
-              src="src/assets/SocialNetworks/x.svg"
-              alt="Icono X"
-            />
+            <img className={styles.iconSocial} src={X} alt="Icono X" />
           </NavLink>
         </div>
       </div>

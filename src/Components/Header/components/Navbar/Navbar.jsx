@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { MenuBurguer } from "../MenuBurguer/MenuBurguer";
+import logoCompleto from "@assets/Logos/LogoCompleto.svg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <img
-        src="src/assets/Logos/LogoCompleto.svg"
+        src={logoCompleto}
         alt="Logo clinica Philippe Pinel"
         className={styles.logo}
       />

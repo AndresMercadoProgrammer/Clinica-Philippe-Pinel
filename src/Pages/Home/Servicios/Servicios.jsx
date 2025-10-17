@@ -1,17 +1,16 @@
 import React from "react";
 import styles from "./Servicios.module.css";
-
+import gerontologia from "@assets/ServicesImages/Gerontologia.png";
+import hospital from "@assets/ServicesImages/Hospital.svg";
+import maletin from "@assets/ServicesImages/Maletin.png";
+import consultorio from "@assets/ServicesImages/Consultorio.png";
 export const Servicios = () => {
   return (
     <section id="servicios" className={styles.serviciosContainer}>
       <h2 className={styles.title}>Nuestros Servicios</h2>
       <div className={styles.cardsContainer}>
         <div className={styles.card}>
-          <img
-            className={styles.cardImg}
-            src="src\assets\ServicesImages\Gerontologia-icon.png"
-            alt=""
-          />
+          <img className={styles.cardImg} src={gerontologia} alt="" />
           <h3 className={styles.cardTitle}>Geriatría</h3>
           <p className={styles.parrafo}>Estabilidad Afectiva</p>
           <p className={styles.parrafo}>Buena Alimentación e Hidratación</p>
@@ -19,11 +18,7 @@ export const Servicios = () => {
         </div>
 
         <div className={styles.card}>
-          <img
-            className={styles.cardImg}
-            src="src\assets\ServicesImages\Hospital.svg"
-            alt=""
-          />
+          <img className={styles.cardImg} src={hospital} alt="" />
           <h3 className={styles.cardTitle}>Hospital de Día</h3>
           <p className={styles.parrafo}>Estabilidad Psíquica</p>
           <p className={styles.parrafo}>Logro de los Objetivos Terapéuticos</p>
@@ -31,11 +26,7 @@ export const Servicios = () => {
         </div>
 
         <div className={styles.card}>
-          <img
-            className={styles.cardImg}
-            src="src\assets\ServicesImages\Maletin-icon.png"
-            alt=""
-          />
+          <img className={styles.cardImg} src={maletin} alt="" />
           <h3 className={styles.cardTitle}>Internación en Salud Mental</h3>
           <p className={styles.parrafo}>Internaciones Breves</p>
           <p className={styles.parrafo}>Remisión de Síntomas Agudos</p>
@@ -45,7 +36,7 @@ export const Servicios = () => {
         <div className={styles.card}>
           <img
             className={styles.cardImg}
-            src="src\assets\ServicesImages\Consultorio-icon.png"
+            src={consultorio}
             alt="consultorio icono"
           />
           <h3 className={styles.cardTitle}>Consultorio Externo</h3>

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import portada from "@assets/ImagenPortada.svg";
 export const Hero = () => {
   return (
     <>
@@ -11,11 +12,7 @@ export const Hero = () => {
           </h3>
         </div>
         <div className={styles.imageContainer}>
-          <img
-            className={styles.img}
-            src="src/assets/Imagen Portada.svg"
-            alt="Dos manos tomadas"
-          />
+          <img className={styles.img} src={portada} alt="Dos manos tomadas" />
         </div>
       </section>
       <button className={styles.btnAction}>Agendar Consulta</button>

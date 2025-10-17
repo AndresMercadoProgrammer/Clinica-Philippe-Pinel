@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "./Contacto.module.css";
+import phone from "@assets/IconosDeContacto/phone.svg";
+import email from "@assets/IconosDeContacto/email.svg";
+import location from "@assets/IconosDeContacto/location.svg";
 export const Contacto = () => {
   return (
     <section id="contacto" className={styles.contactContainer}>
@@ -10,29 +13,17 @@ export const Contacto = () => {
       </p>
       <div className={styles.infoContainer}>
         <div className={styles.card}>
-          <img
-            className={styles.imgCard}
-            src="src\assets\contactIcons\phone.svg"
-            alt="phone"
-          />
+          <img className={styles.imgCard} src={phone} alt="phone" />
           <p className={styles.parrafo}>+54 380 4656521</p>
         </div>
         <div className={styles.card}>
-          <img
-            className={styles.imgCard}
-            src="src\assets\contactIcons\email.svg"
-            alt=""
-          />
+          <img className={styles.imgCard} src={email} alt="" />
           <p className={styles.parrafoCard}>
             ⁠centrodesaludmentallarioja@hotmail.com
           </p>
         </div>
         <div className={styles.card}>
-          <img
-            className={styles.imgCard}
-            src="src\assets\contactIcons\location.svg"
-            alt=""
-          />
+          <img className={styles.imgCard} src={location} alt="" />
           <p className={styles.parrafo}>Av. Ramirez de Velazco 698</p>
         </div>
       </div>
