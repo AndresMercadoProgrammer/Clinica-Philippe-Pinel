@@ -3,7 +3,7 @@ import styles from "./Footer.module.css";
 import { NavLink } from "react-router-dom";
 import logoFooter from "@assets/Logos/LogoFooter.svg";
 import Instagram from "@assets/SocialNetworks/instagram.svg";
-import Facebook from "@assets/SocialNetworks/Facebook.svg";
+import Facebook from "@assets/SocialNetworks/facebook.svg";
 import X from "@assets/SocialNetworks/x.svg";
 export const Footer = () => {
   return (
