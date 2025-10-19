@@ -4,7 +4,11 @@ import styles from "./WhatsAppBtn.module.css";
 export const WhatsAppBtn = () => {
   return (
     <div className={styles.container}>
-      <a target="_blank">
+      <a
+        href="https://wa.me/543804656521"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
           className={styles.whatsappBtn}
           src={whatsApp}
