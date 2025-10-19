@@ -9,10 +9,12 @@
 .textContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   gap: 1rem;
+  padding-top: 2rem;
   flex: 1;
 }
+
 .title {
   font-size: 2rem;
   font-weight: extra-bold;
@@ -39,4 +41,9 @@
 }
 .img {
   height: 100%;
+}
+@media (min-width: 500px) {
+  .img {
+    width: 70%;
+  }
 }

@@ -4,10 +4,13 @@
   background-color: #bfd2dd;
   padding: 1.5rem;
   gap: 1.2rem;
+  align-items: center;
 }
 
 .logoContainer {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .navLinksContainer {
   display: flex;
