@@ -1,0 +1,115 @@
+/* Mobile First - Hidden by default on mobile */
+.desktopNav {
+  display: none;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: nowrap;
+}
+
+.navItem {
+  position: relative;
+}
+
+.navLink {
+  color: #035683;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.4rem 0;
+  transition: color 0.2s ease;
+  position: relative;
+  white-space: nowrap;
+}
+
+.navLink:hover {
+  color: #023a52;
+}
+
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #035683;
+  transition: width 0.3s ease;
+}
+
+.navLink:hover::after {
+  width: 100%;
+}
+
+.turnosBtn {
+  background-color: #035683;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.turnosBtn:hover {
+  background-color: #023a52;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(3, 86, 131, 0.3);
+}
+
+/* Tablet styles - 768px and up */
+@media (min-width: 768px) {
+  .navLink {
+    font-size: 1.1rem;
+  }
+  
+  .turnosBtn {
+    font-size: 1.1rem;
+    padding: 0.9rem 1.6rem;
+  }
+}
+
+/* Desktop styles - 1024px and up */
+@media (min-width: 1024px) {
+  .desktopNav {
+    display: block;
+  }
+  
+  .navList {
+    gap: 1.2rem;
+  }
+  
+  .navLink {
+    font-size: 0.9rem;
+  }
+  
+  .turnosBtn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.1rem;
+  }
+}
+
+/* Large desktop styles - 1440px and up */
+@media (min-width: 1440px) {
+  .navList {
+    gap: 1.5rem;
+  }
+  
+  .navLink {
+    font-size: 1rem;
+  }
+  
+  .turnosBtn {
+    font-size: 1rem;
+    padding: 0.7rem 1.3rem;
+  }
+}

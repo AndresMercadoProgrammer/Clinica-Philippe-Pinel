@@ -7,9 +7,9 @@ import { RiContactsBook3Line } from "react-icons/ri";
 import { FiUsers } from "react-icons/fi";
 import { Link } from "react-scroll";
 
-export const MenuBurguer = ({ isOpen, onClose }) => {
+export const BurgerMenu = ({ isOpen, onClose }) => {
   return (
-    <div className={`${styles.menu} ${isOpen ? styles.open : ""}`}>
+    <div className={`${styles.menuBurger} ${isOpen ? styles.open : ""}`}>
       <div className={styles.exitContainer}>
         <RxCross1 onClick={() => onClose()} className={styles.cruz} />
       </div>
@@ -78,3 +78,5 @@ export const MenuBurguer = ({ isOpen, onClose }) => {
     </div>
   );
 };
+
+

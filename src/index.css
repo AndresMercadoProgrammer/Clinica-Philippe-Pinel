@@ -1,3 +1,13 @@
+/* Reservar espacio para el header fijo */
+body {
+  padding-top: 72px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding-top: 88px;
+  }
+}
 /* RESET.CSS - versión moderna */
 
 /* 1. Eliminar márgenes y paddings por defecto */
@@ -19,6 +29,7 @@ body {
   color: #000;
   line-height: 1.5;
   scroll-behavior: smooth;
+  position: relative;
 }
 
 /* 3. Quitar estilos a listas */

@@ -1,13 +1,17 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
 import styles from "./Header.module.css";
-import { MenuBurguer } from "./components/MenuBurguer/MenuBurguer";
+import { MobileNav } from "./components/MobileNav/MobileNav";
+import { DesktopNav } from "./components/DesktopNav/DesktopNav";
+import { Logo } from "../Logo/Logo";
+
 export const Header = () => {
   return (
     <>
       <header className={styles.header}>
-        <Navbar />
-        <MenuBurguer />
+       
+        <MobileNav />
+        <DesktopNav />
+      
       </header>
     </>
   );
