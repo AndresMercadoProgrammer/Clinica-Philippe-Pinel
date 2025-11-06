@@ -1,3 +1,5 @@
+/* Mobile first */
+
 .heroContainer {
   width: 100%;
   display: flex;
@@ -42,19 +44,57 @@
 .img {
   height: 100%;
 }
-@media (min-width: 500px) {
+
+/* Tablet */
+
+@media (min-width: 550px) and (max-width: 1024px)  {
+  .heroContainer {
+    width: 100%;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    gap: 0.4rem;
+    padding: 0 0.3rem;
+    justify-content: center;
+  }
   .img {
     width: 70%;
+  }
+  .title {
+    font-size: 2.5rem;
+    font-weight: extra-bold;
+    text-wrap: balance;
+  }
+  .parrafo {
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+    text-wrap: balance;
+  }
+  .imageContainer {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 12; /* imagen más grande */
+    border-radius: 18px;
+    overflow: hidden;
+    display: flex;
+    
+    
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
 /* Desktop-only layout overrides: mantiene mobile-first intacto */
+
 @media (min-width: 1024px) {
   .heroContainer {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1.1fr 1fr; /* texto un poco más ancho */
+    grid-template-columns: 1fr 1.5fr; /* imagen más grande */
     align-items: center;
     gap: 2rem;
     padding: 2rem 1.5rem;
@@ -62,14 +102,23 @@
   .textContainer {
     justify-content: center;
     padding-top: 0;
+    
+  }
+  .title {
+    font-size: 3rem;
+    font-weight: extra-bold;
+    text-wrap: balance;
   }
   .parrafo {
-    text-align: left;
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+    text-wrap: balance;
   }
   .imageContainer {
     width: 100%;
     height: auto;
-    aspect-ratio: 16 / 10; /* proporción parecida a la referencia */
+    aspect-ratio: 16 / 12; /* imagen más grande */
     border-radius: 18px;
     overflow: hidden;
   }
@@ -77,5 +126,8 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  .btnAction {
+   display: none;
   }
 }

@@ -10,7 +10,7 @@ export const MobileNav = () => {
   const toggleMenu = () => setIsOpen((prev) => !prev);
 
   return (
-    <div className={styles.container}>
+    <nav className={styles.container}>
       <div className={styles.logoContainer}>
 <Logo className={styles.logo}/>
 
@@ -22,6 +22,6 @@ export const MobileNav = () => {
         <span className={styles.line}></span>
       </div>
       <BurgerMenu isOpen={isOpen} onClose={toggleMenu} />
-    </div>
+    </nav>
   );
 }
