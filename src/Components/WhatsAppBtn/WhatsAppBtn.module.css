@@ -16,10 +16,17 @@
   transform: scale(1.1);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 }
+
+@media (min-width: 768px) {
+  .whatsappBtn {
+    bottom: 150px;
+    right: 40px;
+  }
+}
+
 /* Desktop */
 @media (min-width: 1200px) {
   .whatsappBtn {
     bottom: 100px;
     right: calc((100vw - 1200px) / 2 + 30px);
-  }
-}
+  }}
