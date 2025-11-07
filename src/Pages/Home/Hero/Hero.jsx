@@ -15,7 +15,7 @@ export const Hero = () => {
           <img className={styles.img} src={portada} alt="Dos manos tomadas" />
         </div>
       </section>
-      <a href="#home">  <button className={styles.btnAction}>Agendar Consulta</button> </a>
+      <a href="#turnos">  <button className={styles.btnAction}>Agendar Consulta</button> </a>
     </>
   );
 };
