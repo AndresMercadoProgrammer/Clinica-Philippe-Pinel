@@ -1,8 +1,7 @@
 .whatsappBtn {
   position: fixed;
-  bottom: 50px;
-  right: 30px;
-  width: 60px;
+  bottom: 20px;
+  right: 20px;
   height: 60px;
   z-index: 1000;
   border-radius: 50%;
@@ -13,11 +12,14 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
-
+.whatsappBtn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
 /* Desktop */
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .whatsappBtn {
     bottom: 100px;
-    right: 120px; 
+    right: calc((100vw - 1200px) / 2 + 30px);
   }
 }
