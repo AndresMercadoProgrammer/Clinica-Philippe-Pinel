@@ -6,6 +6,7 @@
   font-family: "Roboto", sans-serif;
   gap: 0.4rem;
   padding: 0 0.3rem;
+  scroll-margin-top: 80px;
 }
 
 .textContainer {

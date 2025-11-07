@@ -9,8 +9,8 @@ export const DesktopNav = () => {
         <Logo className={styles.logo}/>
       </div>
       <ul className={styles.navList}>
-        <li className={styles.navItem}>
-          <a href="#inicio" className={styles.navLink}>Inicio</a>
+        <li  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className={styles.navItem}>
+          <a className={styles.navLink}>Inicio</a>
         </li>
         <li className={styles.navItem}>
           <a href="#servicios" className={styles.navLink}>Servicios</a>
