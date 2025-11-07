@@ -32,6 +32,8 @@
   width: 100%;
 }
 
+/* TABLET */
+
 @media (min-width: 768px) {
   .cardsContainer {
     gap: 2.5rem;
@@ -44,12 +46,13 @@
     font-size: 1.06rem;
   }
   .title {
-    font-size: 2.6rem;
+    font-size: 1rem;
   }
   .titleCard {
     font-size: 1.7rem;
   }
 }
+/* DESKTOP */
 
 @media (min-width: 1024px) {
   .cardsContainer {
@@ -62,7 +65,7 @@
     font-size: 1.1rem;
   }
   .title {
-    font-size: 2.9rem;
+    font-size: 2.6rem;
   }
   .titleCard {
     font-size: 1.9rem;

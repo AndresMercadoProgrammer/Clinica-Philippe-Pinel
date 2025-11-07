@@ -16,29 +16,27 @@ export const Footer = () => {
         />
       </div>
       <nav className={styles.navLinksContainer}>
-        <NavLink to="/" className={styles.link}>
+        <a href="#home" className={styles.link}>
           Home
-        </NavLink>
-        <NavLink to="" className={styles.link}>
+        </a>
+        <a href="#servicios" className={styles.link}>
           Servicios
-        </NavLink>
-        <NavLink to="" className={styles.link}>
+        </a>
+        <a href="#nosotros" className={styles.link}>
           Nosotros
-        </NavLink>
-        <NavLink to="" className={styles.link}>
-          Staff
-        </NavLink>
-        <NavLink to="" className={styles.link}>
+        </a>
+       
+        <a href="#contacto" className={styles.link}>
           Contactos
-        </NavLink>
-        <NavLink to="" className={styles.link}>
+        </a>
+        <a href="#turnos" className={styles.link}>
           Turnos
-        </NavLink>
+        </a>
       </nav>
       <div className={styles.socialNetworksContainer}>
-        <p className={styles.SocialNetworkTitle}>Social Networks</p>
+        <p className={styles.SocialNetworkTitle}>Seguinos</p>
         <div className={styles.socialNetworksIcons}>
-          <NavLink to="">
+          <NavLink to="https://www.instagram.com/clinicaphilippe/">
             <img
               className={styles.iconSocial}
               src={Instagram}

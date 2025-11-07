@@ -13,15 +13,21 @@ export const Turnos = () => {
         Online.
       </p>
       <div className={styles.btnTurnosContainer}>
-        <div className={styles.btn}>
+        <a     href="https://clinicaphilippepinel.geblix.com/registro"
+    target="_blank"
+    rel="noopener noreferrer"
+     className={styles.btn}>
           <img className={styles.imgButton} src={newPatient} alt="" />
-          <p>Paciente Nuevo</p>
-        </div>
+          <p>Paciente Nuevo</p> 
+        </a>
 
-        <div className={styles.btn}>
+        <a href="https://clinicaphilippepinel.geblix.com/login/"
+    target="_blank"
+    rel="noopener noreferrer"
+     className={styles.btn}>
           <img className={styles.imgButton} src={reload} alt="" />
           <p>Paciente Recurrente</p>
-        </div>
+        </a>
       </div>
     </section>
   );
