@@ -10,10 +10,12 @@
 .title {
   font-size: 2.2rem;
   text-align: center;
+  margin-bottom: 1.5rem;
 }
 .parrafo {
   color: #144661;
   text-align: justify;
+  
 }
 .infoContainer {
   display: flex;
