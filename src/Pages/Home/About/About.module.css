@@ -8,7 +8,11 @@
   scroll-margin-top: 80px;
 }
 .title {
+  width: 120%;
   font-size: 2.2rem;
+  padding: .2rem 0 1rem 0;
+  background-color: #a3bddb8a;
+  
 }
 .cardsContainer {
   display: flex;
@@ -46,7 +50,7 @@
     font-size: 1.06rem;
   }
   .title {
-    font-size: 1rem;
+    font-size: 2.5rem;
   }
   .titleCard {
     font-size: 1.7rem;
@@ -66,6 +70,7 @@
   }
   .title {
     font-size: 2.6rem;
+    background-color: #fff;
   }
   .titleCard {
     font-size: 1.9rem;
