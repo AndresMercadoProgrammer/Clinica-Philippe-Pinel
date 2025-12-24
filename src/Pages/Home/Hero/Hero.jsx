@@ -6,7 +6,7 @@ export const Hero = () => {
     <>
       <section id="home" className={styles.heroContainer}>
         <div className={styles.textContainer}>
-          <h1 className={styles.title}> Tu mente tambien merece cuidado</h1>
+          <h1 className={styles.title}> TU MENTE TAMBIEN MERECE CUIDADO</h1>
           <h3 className={styles.parrafo}>
             Ética Profesional, Trabajo Interdisciplinario y Excelencia
           </h3>

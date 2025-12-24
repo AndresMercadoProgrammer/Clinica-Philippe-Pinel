@@ -14,20 +14,21 @@
   display: flex;
   flex-direction: column;
   justify-content: start;
+  align-items: center;
   gap: 1rem;
   padding-top: 2rem;
   flex: 1;
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: extra-bold;
   text-wrap: balance;
   font-family: "Archivo", sans-serif;
 }
 .parrafo {
-  font-size: 2rem;
-  font-weight: regular;
+  font-size: 1rem;
+  font-weight: 400;
   text-align: center;
   text-wrap: balance;
   font-family: "Archivo", sans-serif;
