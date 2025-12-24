@@ -7,6 +7,7 @@
   gap: 0.4rem;
   padding: 0 0.3rem;
   scroll-margin-top: 80px;
+  
 }
 
 .textContainer {
@@ -22,12 +23,14 @@
   font-size: 2rem;
   font-weight: extra-bold;
   text-wrap: balance;
+  font-family: "Archivo", sans-serif;
 }
 .parrafo {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: regular;
   text-align: center;
   text-wrap: balance;
+  font-family: "Archivo", sans-serif;
 }
 .btnAction {
   font-size: 1.3rem;
@@ -111,7 +114,7 @@
     text-wrap: balance;
   }
   .parrafo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 200;
     text-align: center;
     text-wrap: balance;

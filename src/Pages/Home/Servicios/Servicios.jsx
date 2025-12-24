@@ -58,7 +58,7 @@ export const Servicios = () => {
         </div>
       </div>
 
-      <h2 className={styles.title2}>Servicios en Neurorehabilitación</h2>
+      <h2 className={styles.title}>Servicios en Neurorehabilitación</h2>
       <div className={styles.cardsContainer}>
         <div className={styles.card}>
           <h3 className={styles.cardTitle}>Fisioterapia</h3>
