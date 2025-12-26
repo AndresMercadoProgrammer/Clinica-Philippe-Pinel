@@ -16,9 +16,7 @@ export const Footer = () => {
         />
       </div>
       <nav className={styles.navLinksContainer}>
-        <a href="#home" className={styles.link}>
-          Home
-        </a>
+        
         <a href="#servicios" className={styles.link}>
           Servicios
         </a>
@@ -34,7 +32,7 @@ export const Footer = () => {
         </a>
       </nav>
       <div className={styles.socialNetworksContainer}>
-        <p className={styles.SocialNetworkTitle}>Seguinos</p>
+        
         <div className={styles.socialNetworksIcons}>
           <NavLink to="https://www.instagram.com/clinicaphilippe/">
             <img
@@ -54,6 +52,7 @@ export const Footer = () => {
             <img className={styles.iconSocial} src={X} alt="Icono X" />
           </NavLink>
         </div>
+        <p>© 2025 Level Studio. Todos los derechos reservados.</p>
       </div>
     </footer>
   );

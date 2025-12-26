@@ -61,12 +61,13 @@
 }
 .btnAction {
   font-size: 1.4rem;
-  color: #fff;
-  background: linear-gradient(#166491, #144661);
+  color: #ffffff;
+  background-color: #035683;
   padding: 0.5rem 1rem;
   border-radius: 7px;
   margin: 1.5rem;
-  box-shadow: 0px 0px 7px 0.2px rgb(2, 2, 2)
+  box-shadow: 0px 0px 7px 0.2px rgb(2, 2, 2);
+  font-weight: 600;
 }
 .btnAction:hover{
   box-shadow: 0px 0px 2px 2px rgb(255, 255, 255)
