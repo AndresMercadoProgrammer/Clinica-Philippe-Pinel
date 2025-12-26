@@ -1,69 +1,83 @@
 /* Mobile first */
 
 .heroContainer {
+  position: relative;
   width: 100%;
-  display: flex;
-  font-family: "Roboto", sans-serif;
-  gap: 0.4rem;
-  padding: 0 0.3rem;
-  scroll-margin-top: 80px;
-  
-}
 
-.textContainer {
+  background-image: url("../../../assets/MEJOR\ FONDO\ CLINICA.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden; /* CLAVE para evitar scroll */
+  z-index:0;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+
+
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* ajustá la opacidad */
+  z-index: 1;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  gap: 1rem;
-  padding-top: 2rem;
-  flex: 1;
+
+  text-align: center;
+  color: rgb(216, 214, 214);
+  padding: 2rem;
+}
+.hero-content h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+.hero-content p {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 .title {
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: extra-bold;
   text-wrap: balance;
   font-family: "Archivo", sans-serif;
 }
 .parrafo {
-  font-size: 1rem;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
   text-wrap: balance;
   font-family: "Archivo", sans-serif;
 }
 .btnAction {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: #fff;
-  background: linear-gradient(#5488a6, #144661);
+  background: linear-gradient(#166491, #144661);
   padding: 0.5rem 1rem;
   border-radius: 7px;
   margin: 1.5rem;
+  box-shadow: 0px 0px 7px 0.2px rgb(2, 2, 2)
 }
-.imageContainer {
-  flex: 1;
-  height: 100%;
-  object-fit: cover;
+.btnAction:hover{
+  box-shadow: 0px 0px 2px 2px rgb(255, 255, 255)
 }
-.img {
-  height: 100%;
-}
+
 
 /* Tablet */
 
 @media (min-width: 550px) and (max-width: 1024px)  {
-  .heroContainer {
-    width: 100%;
-    display: flex;
-    font-family: "Roboto", sans-serif;
-    gap: 0.4rem;
-    padding: 0 0.3rem;
-    justify-content: center;
-  }
-  .img {
-    width: 70%;
-  }
+  
+ 
   .title {
     font-size: 2.5rem;
     font-weight: extra-bold;
@@ -75,16 +89,7 @@
     text-align: center;
     text-wrap: balance;
   }
-  .imageContainer {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 12; /* imagen más grande */
-    border-radius: 18px;
-    overflow: hidden;
-    display: flex;
-    
-    
-  }
+  
   .img {
     width: 100%;
     height: 100%;

@@ -1,6 +1,6 @@
 /* Reservar espacio para el header fijo */
 body {
-  padding-top: 72px;
+  padding-top:  66px;
 }
 
 @media (min-width: 1024px) {
