@@ -1,11 +1,11 @@
 /* Reservar espacio para el header fijo */
 body {
-  padding-top:  66px;
+  padding-top: 66px;
 }
 
 @media (min-width: 1024px) {
   body {
-    padding-top: 88px;
+    padding-top: 80px;
   }
 }
 /* RESET.CSS - versión moderna */
@@ -29,7 +29,6 @@ body {
   line-height: 1.5;
   scroll-behavior: smooth;
   position: relative;
-
 }
 
 /* 3. Quitar estilos a listas */
@@ -74,6 +73,8 @@ table {
   border-spacing: 0;
 }
 
-h1, h2, p{
+h1,
+h2,
+p {
   font-family: "Archivo", sans-serif;
 }

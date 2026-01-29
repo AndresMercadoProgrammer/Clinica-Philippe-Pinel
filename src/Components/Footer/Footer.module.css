@@ -22,13 +22,10 @@
 }
 
 .link {
-  font-size: 1.1rem;
   text-decoration: none;
   color: black;
   font-weight: 400;
   margin-bottom: 0.5rem;
-
- 
 }
 .socialNetworksContainer {
   display: flex;
@@ -37,7 +34,6 @@
 }
 .SocialNetworkTitle {
   width: 100%;
-  font-size: 1.5rem;
 }
 .socialNetworksIcons {
   display: flex;
@@ -46,11 +42,7 @@
   margin-bottom: 1rem;
 }
 
-
-
 /* TABLET */
-
-
 
 @media (min-width: 768px) {
   .footerContainer {
@@ -62,23 +54,22 @@
     align-items: center;
     border-radius: 10px;
   }
-  
+
   .logoContainer {
     width: 100%;
     display: flex;
     justify-content: center;
-    flex : 1
+    flex: 1;
   }
   .navLinksContainer {
     display: flex;
     width: 100%;
     height: fit-content;
     flex-direction: column;
-    flex : 1
+    flex: 1;
   }
-  
+
   .link {
-    font-size: 1.1rem;
     text-decoration: none;
     color: black;
     font-weight: 500;
@@ -88,18 +79,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex : 1
-    ; 
+    flex: 1;
   }
   .SocialNetworkTitle {
     width: 100%;
-    font-size: 1.5rem;
   }
   .socialNetworksIcons {
     display: flex;
     gap: 1.6rem;
     margin-top: 0.5rem;
-    
   }
-  
 }

@@ -9,17 +9,15 @@
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden; /* CLAVE para evitar scroll */
-  z-index:0;
+  z-index: 0;
   display: flex;
   flex-direction: column;
-
-
 }
 
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.4); /* ajustá la opacidad */
+  background: rgba(2, 1, 1, 0.3); /* ajustá la opacidad */
   z-index: 1;
 }
 
@@ -32,65 +30,53 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-
+  gap: 3rem;
   text-align: center;
   color: rgb(216, 214, 214);
   padding: 2rem;
 }
-.hero-content h1 {
-  font-size: clamp(2rem, 5vw, 4rem);
-}
-
-.hero-content p {
-  font-size: clamp(1rem, 2.5vw, 1.5rem);
-}
 
 .title {
-  font-size: 2rem;
   font-weight: extra-bold;
   text-wrap: balance;
   font-family: "Archivo", sans-serif;
+  text-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
 }
 .parrafo {
   margin-top: 1.5rem;
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: bold;
   text-align: center;
   text-wrap: balance;
   font-family: "Archivo", sans-serif;
 }
 .btnAction {
-  font-size: 1.4rem;
-  color: #ffffff;
-  background-color: #035683;
-  padding: 0.5rem 1rem;
+  color: rgb(255, 255, 255);
+  background: #035683;
+  padding: 1rem 1.5em;
   border-radius: 7px;
   margin: 1.5rem;
-  box-shadow: 0px 0px 7px 0.2px rgb(2, 2, 2);
   font-weight: 600;
+  box-shadow:
+    0 0 0 6px rgba(45, 168, 255, 0.25),
+    0 12px 30px rgba(0, 0, 0, 0.4);
 }
-.btnAction:hover{
-  box-shadow: 0px 0px 2px 2px rgb(255, 255, 255)
+.btnAction:hover {
+  box-shadow: 0px 0px 2px 2px rgb(255, 255, 255);
 }
-
 
 /* Tablet */
 
-@media (min-width: 550px) and (max-width: 1024px)  {
-  
- 
+@media (min-width: 550px) and (max-width: 1024px) {
   .title {
-    font-size: 2.5rem;
     font-weight: extra-bold;
     text-wrap: balance;
   }
   .parrafo {
-    font-size: 1.7rem;
     font-weight: 200;
     text-align: center;
     text-wrap: balance;
   }
-  
+
   .img {
     width: 100%;
     height: 100%;
@@ -103,9 +89,9 @@
 @media (min-width: 1024px) {
   .heroContainer {
     width: 100%;
-    max-width: 1200px;
+
     margin: 0 auto;
-   display: flex;
+    display: flex;
     align-items: center;
     gap: 2rem;
     padding: 2rem 1.5rem;
@@ -124,19 +110,14 @@
     justify-content: center;
     align-items: center;
     padding-top: 0;
-    
   }
   .title {
-    font-size: 3rem;
     font-weight: extra-bold;
     text-wrap: balance;
   }
   .parrafo {
-    font-size: 1.5rem;
     font-weight: 200;
     text-align: center;
     text-wrap: balance;
   }
-
- 
 }

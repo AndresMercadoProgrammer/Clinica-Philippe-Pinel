@@ -1,7 +1,6 @@
 /* Mobile First - Hidden by default on mobile */
 .desktopNav {
   display: none;
- 
 }
 
 .navList {
@@ -21,7 +20,6 @@
 .navLink {
   color: #035683;
   text-decoration: none;
-  font-size: 0.85rem;
   font-weight: 500;
   padding: 0.4rem 0;
   transition: color 0.2s ease;
@@ -34,7 +32,7 @@
 }
 
 .navLink::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -54,7 +52,6 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;
-  font-size: 0.85rem;
   font-weight: 600;
   transition: all 0.2s ease;
   display: inline-block;
@@ -70,11 +67,9 @@
 /* Tablet styles - 768px and up */
 @media (min-width: 768px) {
   .navLink {
-    font-size: 1.1rem;
   }
-  
+
   .turnosBtn {
-    font-size: 1.1rem;
     padding: 0.9rem 1.6rem;
   }
 }
@@ -82,16 +77,15 @@
 /* Desktop styles - 1024px and up */
 @media (min-width: 1024px) {
   .desktopNav {
-  
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.8rem 1.5rem;
     background-color: #fff;
-    box-shadow: 0  4px  rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
     max-width: 1440px;
-  padding: 0.8rem 10rem;
+    padding: 0.8rem 10rem;
   }
   .logoContainer {
     max-width: 150px;
@@ -99,17 +93,15 @@
   .logo {
     height: 3rem;
   }
-  
+
   .navList {
     gap: 1.2rem;
   }
-  
+
   .navLink {
-    font-size: 0.9rem;
   }
-  
+
   .turnosBtn {
-    font-size: 0.9rem;
     padding: 0.6rem 1.1rem;
   }
 }
@@ -119,14 +111,12 @@
   .navList {
     gap: 1.5rem;
   }
-  
+
   .navLink {
-    font-size: 1rem;
     cursor: pointer;
   }
-  
+
   .turnosBtn {
-    font-size: 1rem;
     padding: 0.7rem 1.3rem;
   }
 }

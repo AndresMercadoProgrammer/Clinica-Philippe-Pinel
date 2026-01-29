@@ -8,20 +8,16 @@
   width: 100%;
   scroll-margin-top: 80px;
   border-radius: 10px;
-  margin: 4rem 0 .7rem 0;
+  margin: 5rem 0 1rem 0;
   box-shadow: 0px 0px 10px 5px gray;
+  max-width: 1200px;
 }
 
-.title {
-  font-size: 2.2rem;
-}
 .parrafo {
   text-align: center;
   max-width: 600px;
   margin: 1rem 0;
-  font-size: 1.3rem;
   line-height: 1.5;
- 
 }
 
 .btnTurnosContainer {
@@ -36,21 +32,24 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #03254E;
+  background-color: #ffffff;
   width: 100%;
+  height: 100%;
   padding: 1rem 2rem;
   font-weight: 600;
   border-radius: 5px;
-  
   box-shadow: 0px 0px 5px 2px #5a5b5c;
-  color: #f3f3f3;
+  color: #000000;
+  text-align: center;
+}
+p {
+  margin: 0;
 }
 .btn:hover {
-  box-shadow: 0px 0px 7px 5px #cecdcd;
+  box-shadow: 0px 0px 7px 5px #296fca;
 }
 .imgButton {
   padding-right: 1rem;
- 
 }
 
 /* Tablet */
@@ -60,8 +59,6 @@
     width: 50%;
     margin: 0 auto;
   }
-
- 
 }
 
 /* Desktop */
@@ -71,9 +68,8 @@
     margin: 0 auto;
     justify-content: center;
     width: 45%;
-
   }
-  .btn{
-padding-left: 10rem;
+  .btn {
+    padding-left: 10rem;
   }
 }
