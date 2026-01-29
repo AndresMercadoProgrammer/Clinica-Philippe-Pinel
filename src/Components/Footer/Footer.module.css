@@ -8,7 +8,6 @@
 }
 
 .logoContainer {
-  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -20,7 +19,9 @@
   justify-content: center;
   align-items: center;
 }
-
+.logo {
+  width: 80%;
+}
 .link {
   text-decoration: none;
   color: black;
@@ -56,10 +57,12 @@
   }
 
   .logoContainer {
-    width: 100%;
     display: flex;
     justify-content: center;
     flex: 1;
+  }
+  .logo {
+    width: 100%;
   }
   .navLinksContainer {
     display: flex;
@@ -88,5 +91,11 @@
     display: flex;
     gap: 1.6rem;
     margin-top: 0.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .logo {
+    width: 80%;
+    max-height: 50px;
   }
 }
