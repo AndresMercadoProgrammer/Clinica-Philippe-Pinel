@@ -8,6 +8,7 @@ import X from "@assets/SocialNetworks/x.svg";
 export const Footer = () => {
   return (
     <footer className={styles.footerContainer}>
+      <div></div>
       <div className={styles.logoContainer}>
         <img
           src={logoFooter}
@@ -16,6 +17,9 @@ export const Footer = () => {
         />
       </div>
       <nav className={styles.navLinksContainer}>
+        <a href="#site" className={`${styles.link} ${styles.site}`}>
+          Links
+        </a>
         <a href="#servicios" className={styles.link}>
           Servicios
         </a>
@@ -50,7 +54,9 @@ export const Footer = () => {
             <img className={styles.iconSocial} src={X} alt="Icono X" />
           </NavLink>
         </div>
-        <p>© 2026 Level Studio. Todos los derechos reservados.</p>
+        <div className={styles.copyright}>
+          <p>© 2026 Level Studio. Todos los derechos reservados.</p>
+        </div>
       </div>
     </footer>
   );

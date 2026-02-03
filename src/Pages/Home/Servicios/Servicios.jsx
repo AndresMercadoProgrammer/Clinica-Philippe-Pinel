@@ -10,6 +10,7 @@ import fono from "@assets/ServicesImages/NeuroRehabilitacion/fonoaudiología.jpg
 import kinesiologia from "@assets/ServicesImages/NeuroRehabilitacion/Kinesiología.png";
 import neuropsicologia from "@assets/ServicesImages/NeuroRehabilitacion/neuropsicología.avif";
 import terapiaOcupacional from "@assets/ServicesImages/NeuroRehabilitacion/terapia ocupacional.avif";
+import Carousel from "react-material-ui-carousel";
 
 export const Servicios = () => {
   return (
